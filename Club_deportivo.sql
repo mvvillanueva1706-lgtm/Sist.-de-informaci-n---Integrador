@@ -38,13 +38,13 @@ INSERT INTO socio (nombreSocio, DNI) VALUES
 
 INSERT INTO entrenador (nombreEntrenador) VALUES
 (DES_ENCRYPT ('Roberto Carlos', 'nombreEntrenador')),
-(DES_ENCRYPT ('Laura Pausini', 'nombreEntreanador'));
+(DES_ENCRYPT ('Laura Pausini', 'nombreEntrenador'));
 
 
 INSERT INTO actividad (nombreActividad, id_entrenador) VALUES
 (DES_ENCRYPT ('Fútbol', 'nombreActividad'), 1),
 (DES_ENCRYPT ('Natación', 'nombreActividad'), 2),
-(DES_ENCRYPT ('Básquet', 'nombreActiviad'), 1);
+(DES_ENCRYPT ('Básquet', 'nombreActividad'), 1);
 
 INSERT INTO socioActividad (id_socio, id_actividad) VALUES
 (1, 1),
