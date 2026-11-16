@@ -4,7 +4,7 @@ USE Club_deportivo;
 CREATE TABLE socio (
     id_socio INT AUTO_INCREMENT PRIMARY KEY,
     nombreSocio VARBINARY(50) NOT NULL,
-    dni VARBINARY(50) NOT NULL UNIQUE
+    DNI VARBINARY(50) NOT NULL UNIQUE
 );
 
 -- VARBINARY sirve para almacenar cadenas d bytes binarios d longitud variable, VARCHAR almacena cadenas d texto
